@@ -1,0 +1,27 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "minecraft:diamond_sword",
+      "category": "equipment"
+    },
+    "components": {
+      "minecraft:durability": {
+        "max_durability": 2000  // 增加耐久
+      },
+      "minecraft:damage": 10,  // 增加傷害
+      "minecraft:can_destroy_in_creative": true,
+      "minecraft:enchantable": {
+        "value": 30  // 增加附魔等級
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": ["minecraft:diamond"],
+            "repair_amount": 1
+          }
+        ]
+      }
+    }
+  }
+}

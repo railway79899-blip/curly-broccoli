@@ -1,0 +1,18 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Example Resource Pack",
+    "name": "Example Resource Pack",
+    "uuid": "abcd1234-5678-9012-3456-789012345678",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 16, 0]
+  },
+  "modules": [
+    {
+      "description": "Example Resource Pack Module",
+      "type": "resources",
+      "uuid": "dcba4321-8765-2109-6543-210987654321",
+      "version": [1, 0, 0]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "example:custom_sword",
+      "category": "equipment"
+    },
+    "components": {
+      "minecraft:durability": {
+        "max_durability": 100
+      },
+      "minecraft:damage": 5,
+      "minecraft:can_destroy_in_creative": true,
+      "minecraft:item_name": {
+        "value": "Custom Sword"
+      },
+      "minecraft:icon": {
+        "texture": "custom_sword"
+      }
+    }
+  }
+}

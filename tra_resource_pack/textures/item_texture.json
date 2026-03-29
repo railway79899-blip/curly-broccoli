@@ -1,0 +1,11 @@
+// TRA 物品材質定義
+// 需要添加 tra_ticket.png 材質檔案
+{
+  "resource_pack_name": "tra",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "tra_ticket": {
+      "textures": "textures/items/tra_ticket"
+    }
+  }
+}

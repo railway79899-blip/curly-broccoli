@@ -1,0 +1,28 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "minecraft:bow",
+      "category": "equipment"
+    },
+    "components": {
+      "minecraft:durability": {
+        "max_durability": 500
+      },
+      "minecraft:damage": 5,
+      "minecraft:can_destroy_in_creative": true,
+      "minecraft:enchantable": {
+        "value": 15
+      },
+      "minecraft:shootable": {
+        "ammunition": [
+          {
+            "item": "minecraft:arrow"
+          }
+        ],
+        "charge_time": 0.5,  // 更快的拉弓時間
+        "launch_power_scale": 2.0  // 增加發射力量
+      }
+    }
+  }
+}

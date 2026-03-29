@@ -1,0 +1,11 @@
+// This is a placeholder for item texture atlas
+// In a real pack, you would have a textures_list.json and actual PNG files
+{
+  "resource_pack_name": "example",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "custom_sword": {
+      "textures": "textures/items/custom_sword"
+    }
+  }
+}

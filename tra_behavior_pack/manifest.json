@@ -1,0 +1,18 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Taiwan Railway Administration Immersive Addon",
+    "name": "TRA Immersive",
+    "uuid": "12345678-1234-1234-1234-123456789tra",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 16, 0]
+  },
+  "modules": [
+    {
+      "description": "TRA Behavior Pack Module",
+      "type": "data",
+      "uuid": "87654321-4321-4321-4321-cba987654tra",
+      "version": [1, 0, 0]
+    }
+  ]
+}

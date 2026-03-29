@@ -1,0 +1,18 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Example Behavior Pack",
+    "name": "Example Behavior Pack",
+    "uuid": "12345678-1234-1234-1234-123456789abc",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 16, 0]
+  },
+  "modules": [
+    {
+      "description": "Example Behavior Pack Module",
+      "type": "data",
+      "uuid": "87654321-4321-4321-4321-cba987654321",
+      "version": [1, 0, 0]
+    }
+  ]
+}

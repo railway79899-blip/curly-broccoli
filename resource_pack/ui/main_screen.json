@@ -1,0 +1,30 @@
+{
+  "main_screen@common.base_screen": {
+    "$screen_background": "example.main_background",
+    "$screen_content": "example.main_content"
+  },
+  "example.main_background": {
+    "type": "image",
+    "texture": "textures/ui/example_main_bg"
+  },
+  "example.main_content": {
+    "type": "panel",
+    "controls": [
+      {
+        "title@common.title": {
+          "$title_text": "Example Minecraft"
+        }
+      },
+      {
+        "play_button@example_ui.button": {
+          "$button_text": "Play"
+        }
+      },
+      {
+        "settings_button@example_ui.button": {
+          "$button_text": "Settings"
+        }
+      }
+    ]
+  }
+}

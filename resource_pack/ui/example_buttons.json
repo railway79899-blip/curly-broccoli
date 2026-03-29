@@ -1,0 +1,20 @@
+{
+  "namespace": "example_ui",
+  "button@common.button": {
+    "$pressed_button_name": "example.button_pressed",
+    "$button_name": "example.button_normal",
+    "$hover_button_name": "example.button_hover"
+  },
+  "example.button_normal": {
+    "type": "image",
+    "texture": "textures/ui/example_button_normal"
+  },
+  "example.button_pressed": {
+    "type": "image",
+    "texture": "textures/ui/example_button_pressed"
+  },
+  "example.button_hover": {
+    "type": "image",
+    "texture": "textures/ui/example_button_hover"
+  }
+}
